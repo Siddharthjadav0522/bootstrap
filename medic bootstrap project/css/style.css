@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: rgb(72 189 197);
+    z-index: 10;
+}
+section{
+    padding: 93px 0 50px 0;
+}
+.menu{
+    text-align: center;
+}
+p{
+    color: #8e8c8a;
+}
+.doctor-name{
+    font-size:70px;
+}
+.one{
+    background-color: #48bdc5;
+}
+.two{
+    background-color: #5bc4cb;
+}
+.three{
+    background-color: #6fcbd1;
+}.two-btn{
+    background-color: #48bdc5;
+    border:1px solid white;
+    padding: 10px 20px;
+    color: white;
+}
+.two-btn:hover{
+    background-color:white;
+    color: #48bdc5;
+    padding: 10px 20px;
+}
+.best p{
+    line-height: 30px;
+}
+.meet:hover{
+    color: #47b6bd;
+}
+.line::after{
+    content: "";
+    width:11%;
+    margin-top:16px;
+    display: block;
+    height:2px;
+    background-color: #000000;
+}
+.servic-btn{
+    background-color: #48bdc5;
+    color: white;
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 5px;
+}
+.servic-btn:hover{
+    background-color:transparent;
+    border:1px solid #48bdc5;
+    color: #48bdc5;
+}
+.low{
+    width:400px;
+    height:250px;
+}
+.low:hover{
+    transform: scale(1.2);
+    transition: .8s ease;
+}
+.dr{
+    width: 380px;
+    height:300px;
+}
+.doctor-btn{
+    background-color: white;
+    color: #48bdc5;
+    border-radius: 5px;
+    border:1px solid #48dbc5;
+    padding: 10px 30px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.doctor-btn:hover{
+    background-color: #48dbc5;
+    color: white;
+}
+.sansa{
+    box-shadow:0px 10px 60px rgb(215, 214, 209);
+}
+.health:hover{
+    color: white;
+    background-color: #48dbc5;
+}
+footer{
+    background-color: #132646;
+}
+.victus{
+    height:40px;
+    width: 40px;
+    background-color: #fff;
+}
+.leo{
+    color: #48bdc5; 
+}
+.victus:hover{
+    background-color: #47b6bd;
+}
+.victus:hover .leo{
+color: white;
+}
+.leo:hover{
+    color: #47b6bd;
+}
+.jay{
+    height: 50px;
+    width: 50px;
+    bottom: 24px;
+    right: 8px;
+    border: none;
+    background: #47b6bd;
+}
+
+
+
+
+@media screen and (max-width:320px) {
+.ankit{
+    font-size:57px;
+}
+}
